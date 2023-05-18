@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header {
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.274)),
+        url(IMG_XSLT/israel-andrade-YI_9SivVt_s-unsplash.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 50vh;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header h1{
+    font-size: 30px;
+    line-height: 180px;
+    color: #d6dce9;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+}
+general-1{
+    width: 30%;
+  
+    background-color: #E1E2E6;
+}
+general-2{
+    background-image: url(IMG_XSLT/man.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.general-3{
+    background-image: url(img/mike-swigunski-Fz0XVa_rLQI-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+
+section p{
+    padding: 0px;
+    font-size: 16px;
+    color: #282a30;
+    margin: 10px 50px 10px 20px;
+    text-align: center;
+    
+}
+footer p {
+    padding: 0px;
+    font-size: 16px;
+    color: #ebedf1;
+    margin: 10px 50px 10px 20px;
+    text-align:center;
+}
+
+
+footer{
+    padding: 15px 0;
+    background-color: #340788;
+}
+footer a{
+    font-size: 16px;
+    color: #f8f2f2;
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<ite>
+	<nombre/>
+	<web/>
+	<empresa>
+		<nombre_empresa>
+        Proeduca
+        +34 91 787 39 91
+    </nombre_empresa>
+		<telefono/>
+	</empresa>
+	<gestion_centro>
+		<profesor>
+			<id>1</id>
+			<nombre>F?lix</nombre>
+		</profesor>
+		<profesor>
+			<id>2</id>
+			<nombre>Ra?l</nombre>
+		</profesor>
+		<profesor>
+			<id>3</id>
+			<nombre>Raquel</nombre>
+		</profesor>
+		<profesor>
+			<id>4</id>
+			<nombre>Tom?s</nombre>
+		</profesor>
+		<director>
+			<nombre>Chon</nombre>
+			<despacho>Numero 31, 3? Planta, Edificio A</despacho>
+		</director>
+		<jefe_estudios>
+			<nombre>Dani</nombre>
+			<despacho>Numero 27, 2? Planta, Edificio B</despacho>
+		</jefe_estudios>
+	</gestion_centro>
+	<ciclos_formativos/>
+</ite>
