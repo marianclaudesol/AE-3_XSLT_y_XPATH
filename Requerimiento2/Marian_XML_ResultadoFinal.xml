@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<root enterprise="Proeduca" phone="+34 91 787 39 91">
+	<name>Instituto Tecnologico Edix</name>
+	<sitelink>https://institutotecnologico.edix.com</sitelink>
+	<teachers>
+		<teacher info="1-Felix"/>
+		<teacher info="2-Raul"/>
+		<teacher info="3-Raquel"/>
+		<teacher info="4-Tomas"/>
+	</teachers>
+	<manager name="Chon" office="Numero 31, 3a Planta, Edificio A"/>
+	<head_of_studies name="Dani" office="Numero 27, 2a Planta, Edificio B"/>
+	<courses>
+		<course degree="Superior" year="2009">
+			<identifier code="ASIR">
+				<name>Administracion de Sistemas Informaticos en Red</name>
+			</identifier>
+		</course>
+		<course degree="Superior" year="2010">
+			<identifier code="DAW">
+				<name>Desarrollo de Aplicaciones Web</name>
+			</identifier>
+		</course>
+		<course degree="Superior" year="2010">
+			<identifier code="DAM">
+				<name>Desarrollo de Aplicaciones Multiplataforma</name>
+			</identifier>
+		</course>
+	</courses>
+</root>
