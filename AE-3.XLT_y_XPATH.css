@@ -1,0 +1,248 @@
+header {
+    position: static;
+    width: 100%;
+    height: 300px;
+    margin: auto;
+}
+
+header h1 {
+
+    width: 100%;
+    height: 50%;
+    color: #042eaa;
+    float: center;
+    margin: auto;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    margin-bottom: 1px;
+    margin-top: 20px;
+    width: 100%;
+    background:#59ABE3;
+    margin:0;
+}
+
+
+#table {
+
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color: #042eaa;
+    color: white;
+  }
+
+
+  section {
+    margin: 10px;
+    width: 40%;
+    height: auto;
+    padding: 5px;
+    float: left;
+}
+
+
+  aside{
+    margin: 5px;
+    width: 45%;
+    float: right;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+form {
+    width:100%;
+    height:170%;
+    background:#e6e6e6;border-radius:8px;
+    box-shadow:0 0 40px -10px #000;
+    margin:calc(50vh - 220px) auto;
+    padding:10px 20px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+    position:relative;
+}
+
+fieldset {
+    width: 80%;
+    height: 500px;
+    padding: 10%;
+    margin: 5px;
+}
+
+input[type=text]{
+    
+    margin-left: 8%;
+    margin-bottom: 2%;
+    border: 1px solid #39d6eb;
+    border-radius: 1em;
+    padding: 1% 10%;
+    font-size: 0.6em;
+    
+}
+
+
+input[type=email]{
+    margin-left: 13%;
+    margin-bottom: 2%;
+    border: 1px solid #39d6eb;
+    border-radius: 1em;
+    padding: 1% 10%;
+    font-size: 0.6em;
+}
+
+input[type=tel]{
+    margin-left: 7%;
+    margin-bottom: 2%;
+    border: 1px solid #39d6eb;
+    border-radius: 1em;
+    padding: 1% 10%;
+    font-size: 0.6em;
+}
+
+input[type=number]{
+    margin-left: 13.5%;
+    margin-bottom: 2%;
+    border: 1px solid #39d6eb;
+    border-radius: 1em;
+    padding: 1% 10%;
+    font-size: 0.6em;
+}
+
+input[type=url]{
+    width:70%;
+    margin-bottom: 2%;
+    border: 1px solid #39d6eb;
+    border-radius: 1em;
+    padding: 1% 10%;
+    font-size: 0.6em;
+}
+
+
+input[type=submit] {
+    
+    background-color: #39d6eb;
+    color: rgb(0, 0, 0);
+    padding:  1% 1%;
+    margin: 8px 0;
+    
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px 1px rgb(83, 83, 83);
+    font-size: 0.6em;
+}
+
+input[type=submit]:hover {
+    background-color:#27aabb;
+}
+
+input[type=reset]{
+    background-color:#39d6eb;
+    color: black;
+    padding: 1% 1%;
+    margin: 8px 0;
+    font-size: 0.6em;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px 1px rgb(83, 83, 83);
+}
+
+input[type=reset]:hover {
+    background-color:#27aabb;
+}
+
+.mensaje{
+    width: 90%;
+    height: 10vh;
+    border-color: #39d6eb;
+    border-radius: 15px;
+    resize:none;
+    padding: 2%;
+    font-weight:bold;
+}
+
+
+
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: #042eaa;
+}
+
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: #4c99f0;
+}
+
+h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: #4cf0e8;
+}
+
+
+input:focus {
+    background-color: rgb(234, 232, 236);
+} 
+
+
+footer{
+    position: fixed;
+    bottom:0;
+    
+    width: 100%;
+    
+    height: 5rem;
+    background-color: rgb(235, 236, 236);
+}
+
+@media (min-width: 1300px) {
+    
+    body{
+        width: 100%;
+        background-color: #ffffff;
+    }
+  }
+
+  @media  screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    body{
+      width: 99%;
+      background-color: #eafad0;
+    }
+  }
+
+  @media  screen and (min-width: 1024px) and (max-width: 1299px) and (orientation: landscape) {
+    body{
+      width: 99%;
+      background-color: #d0fad9;
+    }
+  }
+
+  @media  screen and (min-width: 320px) and (max-width: 479px) and (orientation: portrait) {
+    body{
+      width: 99%;
+      background-color: #edd0fa;
+    }
+  }
+
+  @media  screen and (min-width: 480px) and (max-width: 599px) and (orientation: landscape) {
+    body{
+      width: 99%;
+      background-color: #edd0fa;
+    }
+  }
+  
