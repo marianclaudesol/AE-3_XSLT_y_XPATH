@@ -6,6 +6,7 @@
         <head>
            <title>Instituto Tecnológico Edix</title>
            <link rel="stylesheet" href="AE-3.XLT_y_XPATH.css"/>
+           <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         </head>
         <body>
                 <header>
@@ -78,6 +79,7 @@
                      <a href="https://www.google.es/maps/place/Calle+N%C2%BA+Veintisiete,+2,+24310+Folgoso+de+la+Ribera,+Le%C3%B3n/@42.6188318,-6.3440779,17z/data=!3m1!4b1!4m6!3m5!1s0xd374b8d358dcd9b:0x48929d1171149841!8m2!3d42.6188318!4d-6.3440779!16s%2Fg%2F11c5pq37vc">Jefe de Estudios: <xsl:value-of select="despacho"/></a>
                     </xsl:for-each>
                 </section>
+                
                     <aside>
                       <h3>Formulario de Contacto</h3>
                         <xsl:for-each select="ciclos">
@@ -166,7 +168,6 @@
         <footer>
             <div class="contact-us">
                <h2 class="brand">Edix</h2>
-               <p>Formación</p>
             </div>
             <div class="social-media">
                 <a href="./" class="social-media-icon">
